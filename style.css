@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 1px solid;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.navebar{
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+.navebar h2{
+    color: white;
+}
+.searchbar{
+    margin-left: 80px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 60px;
+}
+.links1{
+    margin: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.links{
+    color: white;
+}
+.btn{
+    background-color: white;
+    color: black;
+    margin: 0;
+}
+.links{
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.sec1{
+    border: 1px solid;
+    height: 380px;
+    width: 100%;
+    background-color: #346eeb;
+}
+.sec1 h1{
+    color: white;
+    margin-top: 80px;
+    margin-left: 90px;
+}
+.sec1 img{
+    height: 250px;
+    width: 280px;
+    position: absolute;
+    right: 110px;
+    top: 116px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec1 p{
+    color: white;
+    text-align: justify;
+    margin-left: 103px;
+    margin-top: 25px;
+}
+button{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+    color: white;
+    background: transparent;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.button{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hd{
+    height: 300px;
+    width: 500px;
+    text-align: center;
+}
+button:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
